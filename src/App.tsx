@@ -5,6 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles'
 import TopLogo from './components/TopLogo'
 import Concept from './components/Concept'
 import Treatment from './components/Treatment'
+import SetMenu from './components/SetMenu'
 
 const theme = createTheme({
 	typography: {
@@ -26,6 +27,9 @@ function App() {
 					</Box>
 					<Box>
 						<Treatment />
+					</Box>
+					<Box>
+						<SetMenu />
 					</Box>
 				</Container>
 			</ThemeProvider>
