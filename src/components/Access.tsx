@@ -48,7 +48,7 @@ export default function Access() {
 					sx={{ my: 3 }}
 				/>
 			</Box>
-			<Box sx={{ mt: 1, mb: 3 }}>
+			<Box sx={{ mt: 1, mb: 3, display: 'none' }}>
 				<Wrapper
 					apiKey={process.env.REACT_APP_MAPS_JAVASCRIPT_APIKEY}
 					render={render}

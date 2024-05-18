@@ -38,7 +38,7 @@ function App() {
 					<Box>
 						<SetMenu />
 					</Box>
-					<Box>
+					<Box sx={{ mb: 6 }}>
 						<Access />
 					</Box>
 					<Container
