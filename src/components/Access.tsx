@@ -1,19 +1,8 @@
 import { Box, Typography } from '@mui/material'
 import Subtitle from './SubTitle'
-
-import { Wrapper, Status } from '@googlemaps/react-wrapper'
-import { Map } from './Map'
-import { Marker } from './Marker'
-
-const render = (status: Status) => {
-	return <h1>{status}</h1>
-}
+import Link from '@mui/material/Link'
 
 export default function Access() {
-	const position: google.maps.LatLngLiteral = {
-		lat: 34.62906,
-		lng: 135.6083807,
-	}
 	return (
 		<>
 			<Subtitle />
@@ -32,12 +21,16 @@ export default function Access() {
 				<Typography variant='body2' align='left' sx={{ my: 2 }}>
 					072-200-2290
 				</Typography>
-				<Typography variant='body2' align='left' sx={{ my: 2 }}>
-					Instagram:@
-				</Typography>
-				<Typography variant='body2' align='left' sx={{ my: 2 }}>
-					Line:@
-				</Typography>
+				<Link href='https://www.instagram.com/lerable_2024?igsh=MWI3Zmp1ZWl0enkyag%3D%3D&utm_source=qr'>
+					<Typography variant='body2' align='left' sx={{ my: 2 }}>
+						Instagram:@lerable_2024
+					</Typography>
+				</Link>
+				<Link href='https://lin.ee/C29i43R'>
+					<Typography variant='body2' align='left' sx={{ my: 2 }}>
+						Line:お問い合わせ、友達登録はこちらから
+					</Typography>
+				</Link>
 			</Box>
 			<Box sx={{ textAlign: 'right', px: 3 }}>
 				<Box
@@ -47,20 +40,6 @@ export default function Access() {
 					alt='Lerableの外観'
 					sx={{ my: 3 }}
 				/>
-			</Box>
-			<Box sx={{ mt: 1, mb: 3, display: 'none' }}>
-				<Wrapper
-					apiKey={process.env.REACT_APP_MAPS_JAVASCRIPT_APIKEY}
-					render={render}
-				>
-					<Map
-						style={{ width: '95%', aspectRatio: '346/134' }}
-						center={position}
-						zoom={15}
-					>
-						<Marker position={position} />
-					</Map>
-				</Wrapper>
 			</Box>
 		</>
 	)
