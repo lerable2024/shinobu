@@ -27,12 +27,13 @@ export default function TopLogo() {
 		arrows: false,
 	}
 	return (
-		<Box component='h1'>
+		<Box>
 			<Container
 				sx={{
 					//height: 'calc(100vh - 104px)',
 					position: 'relative',
 					p: 0,
+					m: 0,
 				}}
 			>
 				<Slider {...settings} className='top-logos'>
