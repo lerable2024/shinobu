@@ -67,6 +67,7 @@ export default function SetMenu() {
 			<Subtitle />
 			{contents.map((content) => (
 				<Box
+					key={content.title}
 					sx={{ color: '#5F6527', p: 2, m: 2, border: 'solid 0.5px #9BAC8A' }}
 				>
 					<Typography variant='body1'>{content.title}</Typography>
@@ -84,7 +85,9 @@ export default function SetMenu() {
 						</Grid>
 						<Grid xs={6}>
 							{content.menus.map((ms) => (
-								<Typography variant='body2'>{ms}</Typography>
+								<Typography variant='body2' key={ms}>
+									{ms}
+								</Typography>
 							))}
 						</Grid>
 						<Grid xs={3} sx={{ textAlign: 'left' }}>
@@ -103,7 +106,7 @@ export default function SetMenu() {
 					オプション
 				</Typography>
 				{options.map((content) => (
-					<Box>
+					<Box key={content.menu}>
 						<Grid container spacing={0}>
 							<Grid xs={8}>
 								<Typography variant='body2'>{content.menu}</Typography>
