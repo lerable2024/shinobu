@@ -32,7 +32,7 @@ export default function ButtonGroup({ pattern }: MyTopicsProps) {
 								<Link href={contents.link}>
 									<Button variant='contained' color='primary' fullWidth>
 										<Typography
-											variant='body1'
+											variant='body2'
 											sx={{
 												color: '#5F6527',
 												m: 1,
