@@ -6,6 +6,8 @@ import TopLogo from './components/TopLogo'
 import Concept from './components/Concept'
 import Treatment from './components/Treatment'
 import SetMenu from './components/SetMenu'
+import Access from './components/Access'
+import ButtonGroup from './components/ButtonGroup'
 
 const theme = createTheme({
 	typography: {
@@ -13,6 +15,11 @@ const theme = createTheme({
 		fontSize: 12,
 	},
 })
+
+const buttonPattern: { title: string; link: string }[] = [
+	{ title: 'ご予約', link: '' },
+	{ title: 'お問い合わせ', link: '' },
+]
 
 function App() {
 	return (
@@ -30,6 +37,12 @@ function App() {
 					</Box>
 					<Box>
 						<SetMenu />
+					</Box>
+					<Box>
+						<Access />
+					</Box>
+					<Box sx={{ position: 'fixed', bottom: 0, width: '100%' }}>
+						<ButtonGroup pattern={buttonPattern} />
 					</Box>
 				</Container>
 			</ThemeProvider>
