@@ -41,9 +41,12 @@ function App() {
 					<Box>
 						<Access />
 					</Box>
-					<Box sx={{ position: 'fixed', bottom: 0, width: '100%' }}>
+					<Container
+						maxWidth='sm'
+						sx={{ position: 'fixed', bottom: 0, width: '100%' }}
+					>
 						<ButtonGroup pattern={buttonPattern} />
-					</Box>
+					</Container>
 				</Container>
 			</ThemeProvider>
 		</>
