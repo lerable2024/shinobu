@@ -17,8 +17,8 @@ const theme = createTheme({
 })
 
 const buttonPattern: { title: string; link: string }[] = [
-	{ title: 'ご予約', link: '' },
-	{ title: 'お問い合わせ', link: '' },
+	{ title: 'ご予約', link: 'https://lerable2024.square.site/' },
+	{ title: 'お問い合わせ', link: 'https://lin.ee/C29i43R' },
 ]
 
 function App() {

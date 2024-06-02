@@ -20,7 +20,7 @@ export default function SetMenu() {
 		price: string
 	}[] = [
 		{
-			title: '骨盤・卵巣・子宮メンテナンスセット',
+			title: '温活.妊活(骨盤・卵巣・子宮メンテナンス)',
 			min: '120min',
 			menus: [
 				'コアエナジー',
@@ -31,7 +31,7 @@ export default function SetMenu() {
 			price: '14,300-',
 		},
 		{
-			title: 'ツヤ肌・エイジング美肌セット',
+			title: 'ツヤ肌.エイジング美肌セット',
 			min: '90min',
 			menus: [
 				'ヨニスチーム(30min)',
@@ -42,13 +42,13 @@ export default function SetMenu() {
 			price: '7,700-',
 		},
 		{
-			title: 'ヨニスチームセット',
+			title: 'ヨニスチーム.フットケア',
 			min: '60min',
 			menus: ['ヨニスチーム(30min)', 'フットケア', 'デトックスドリンク'],
 			price: '5,500-',
 		},
 		{
-			title: 'スペシャルケア',
+			title: 'スペシャルケア(フルコース)',
 			min: '180min',
 			menus: [
 				'ヨニスチーム(30min)',
@@ -64,7 +64,7 @@ export default function SetMenu() {
 
 	return (
 		<>
-			<Subtitle />
+			<Subtitle subtitle='SetMenu' />
 			{contents.map((content) => (
 				<Box
 					key={content.title}
