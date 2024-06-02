@@ -5,7 +5,7 @@ import Link from '@mui/material/Link'
 export default function Access() {
 	return (
 		<>
-			<Subtitle />
+			<Subtitle subtitle='Information' />
 			<Box sx={{ mx: 3, color: '#5F6527' }}>
 				<Typography variant='body2' align='left' sx={{ my: 2 }}>
 					Le'rable

@@ -5,10 +5,10 @@ import Grid from '@mui/material/Unstable_Grid2'
 export default function Treatment() {
 	return (
 		<>
-			<Subtitle />
+			<Subtitle subtitle='Treatment' />
 			<Box sx={{ color: '#5F6527', px: 2 }}>
 				<Grid container spacing={2}>
-					<Grid xs={9} sx={{ mb: 6, backgroundColor: 'rgba(220,188,113,0.3)' }}>
+					<Grid xs={9} sx={{ mb: 6 }}>
 						<Typography align='left' variant='h6' sx={{ my: 2 }}>
 							ヨニスチーム
 						</Typography>
@@ -25,7 +25,7 @@ export default function Treatment() {
 						<Box
 							component='img'
 							width='70%'
-							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FlerableLogoTest.jpeg?alt=media&token=574ad612-d312-43bb-9722-293c9d952986'
+							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/Treatment%2F%E3%83%A8%E3%83%8B%E3%82%B9%E3%83%81%E3%83%BC%E3%83%A0.jpg?alt=media&token=5fc470f2-8cbb-4a17-a801-387a33b5a3ff'
 							alt='ヨニスチーム'
 							sx={{ my: 3 }}
 						/>
@@ -56,7 +56,7 @@ export default function Treatment() {
 						<Box
 							component='img'
 							width='70%'
-							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FlerableLogoTest.jpeg?alt=media&token=574ad612-d312-43bb-9722-293c9d952986'
+							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/Treatment%2F%E9%AA%A8%E7%9B%A4%E7%9F%AF%E6%AD%A3.jpg?alt=media&token=8e0a1de8-7ce8-4e11-9265-a80155996f12'
 							alt='コアエナジー'
 							sx={{ my: 3 }}
 						/>{' '}
@@ -99,7 +99,7 @@ export default function Treatment() {
 						<Box
 							component='img'
 							width='70%'
-							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FlerableLogoTest.jpeg?alt=media&token=574ad612-d312-43bb-9722-293c9d952986'
+							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/Treatment%2F%E3%83%9B%E3%83%83%E3%83%88%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3.jpg?alt=media&token=3c504530-5eb7-454e-a597-039f792b8cfb'
 							alt='ホットストーン'
 							sx={{ my: 3 }}
 						/>
@@ -121,7 +121,7 @@ export default function Treatment() {
 						<Box
 							component='img'
 							width='70%'
-							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FlerableLogoTest.jpeg?alt=media&token=574ad612-d312-43bb-9722-293c9d952986'
+							src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/Treatment%2F%E7%9F%B3%E8%86%8F%E3%83%8F%E3%82%9A%E3%83%83%E3%82%AF.jpg?alt=media&token=5db53a65-66e0-46d0-9005-c345fe0c60d0'
 							alt='石膏パック'
 							sx={{ my: 3 }}
 						/>
