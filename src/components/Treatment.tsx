@@ -8,7 +8,7 @@ export default function Treatment() {
 			<Subtitle subtitle='Treatment' />
 			<Box sx={{ color: '#5F6527', px: 2 }}>
 				<Grid container spacing={2}>
-					<Grid xs={9} sx={{ mb: 6 }}>
+					<Grid xs={9} sx={{ mb: 6, backgroundColor: 'rgba(220,188,113,0.3)' }}>
 						<Typography align='left' variant='h6' sx={{ my: 2 }}>
 							ヨニスチーム
 						</Typography>

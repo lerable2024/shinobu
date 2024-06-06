@@ -17,7 +17,10 @@ const theme = createTheme({
 })
 
 const buttonPattern: { title: string; link: string }[] = [
-	{ title: 'ご予約', link: 'https://lerable2024.square.site/' },
+	{
+		title: 'ご予約',
+		link: 'https://book.squareup.com/appointments/25amlgahuztd30/location/LRMTT04YVDV2P/services?buttonTextColor=000000&color=76a753&referrer=so&team_member_id=TMwfXpqbOBUpH_8d',
+	},
 	{ title: 'お問い合わせ', link: 'https://lin.ee/C29i43R' },
 ]
 
