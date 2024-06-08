@@ -98,6 +98,10 @@ export default function SetMenu() {
 								height='100%'
 							/>
 						</Grid>
+
+						<Grid xs={12}>
+							<Typography align='right'>{content.price}</Typography>
+						</Grid>
 					</Grid>
 				</Box>
 			))}
