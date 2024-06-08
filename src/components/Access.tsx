@@ -36,7 +36,7 @@ export default function Access() {
 				<Box
 					component='img'
 					width='70%'
-					src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FlerableLogoTest.jpeg?alt=media&token=574ad612-d312-43bb-9722-293c9d952986'
+					src='https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/Access%2F%E5%A4%96%E8%A6%B3.jpg?alt=media&token=755f4cba-e274-40c2-8e57-0d240dd2d81b'
 					alt='Lerableの外観'
 					sx={{ my: 3 }}
 				/>

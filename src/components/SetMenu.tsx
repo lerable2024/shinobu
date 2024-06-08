@@ -58,7 +58,7 @@ export default function SetMenu() {
 				'ホットストーン',
 				'デトックスドリンク',
 			],
-			price: '7,700-',
+			price: '19,800-',
 		},
 	]
 
