@@ -10,14 +10,16 @@ export default function Access() {
 				<Typography variant='body2' align='left' sx={{ my: 2 }}>
 					Le'rable
 				</Typography>
-				<Typography variant='body2' align='left' sx={{ my: 2 }}>
-					〒581-0869
-				</Typography>
-				<Typography variant='body2' align='left' sx={{ my: 2 }}>
-					大阪府八尾市桜ヶ丘1-73
-					<br />
-					カーサレーノ301
-				</Typography>
+				<Link href='https://maps.app.goo.gl/piTc6jGWcpP5cyPv6'>
+					<Typography variant='body2' align='left' sx={{ my: 2 }}>
+						〒581-0869
+					</Typography>
+					<Typography variant='body2' align='left' sx={{ my: 2 }}>
+						大阪府八尾市桜ヶ丘1-73
+						<br />
+						カーサレーノ301
+					</Typography>
+				</Link>
 				<Typography variant='body2' align='left' sx={{ my: 2 }}>
 					072-200-2290
 				</Typography>
