@@ -6,11 +6,11 @@ import 'slick-carousel/slick/slick-theme.css'
 const Imgs: { alt: string; url: string }[] = [
 	{
 		alt: 'lerable',
-		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FlerableLogoTest.jpeg?alt=media&token=574ad612-d312-43bb-9722-293c9d952986',
+		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FLogo.png?alt=media&token=1eb22589-2c98-4198-a125-1b4aa82ef5d2',
 	},
 	{
 		alt: 'lerable2',
-		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FlerableLogoTest.jpeg?alt=media&token=574ad612-d312-43bb-9722-293c9d952986',
+		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FLogo.png?alt=media&token=1eb22589-2c98-4198-a125-1b4aa82ef5d2',
 	},
 ]
 
@@ -23,7 +23,7 @@ export default function TopLogo() {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 20000,
 		arrows: false,
 	}
 	return (
@@ -34,6 +34,7 @@ export default function TopLogo() {
 					position: 'relative',
 					p: 0,
 					m: 0,
+					mt: 10,
 				}}
 			>
 				<Slider {...settings} className='top-logos'>

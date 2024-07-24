@@ -31,6 +31,12 @@ export default function SetMenu() {
 			price: '14,300-',
 		},
 		{
+			title: 'マタニティコース',
+			min: '90min',
+			menus: ['ヨニスチーム(30min)', '腰・お腹ホットストーン', 'フットケア'],
+			price: '8,800-',
+		},
+		{
 			title: 'ツヤ肌.エイジング美肌セット',
 			min: '90min',
 			menus: [
