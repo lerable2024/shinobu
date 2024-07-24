@@ -6,11 +6,11 @@ import 'slick-carousel/slick/slick-theme.css'
 const Imgs: { alt: string; url: string }[] = [
 	{
 		alt: 'lerable',
-		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FLogo.png?alt=media&token=1eb22589-2c98-4198-a125-1b4aa82ef5d2',
+		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FLogo_bg.jpg?alt=media&token=6211f5b8-833e-45d2-a54c-98e47a1504c9',
 	},
 	{
 		alt: 'lerable2',
-		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FLogo.png?alt=media&token=1eb22589-2c98-4198-a125-1b4aa82ef5d2',
+		url: 'https://firebasestorage.googleapis.com/v0/b/le-rable.appspot.com/o/TopLogo%2FLogo_bg.jpg?alt=media&token=6211f5b8-833e-45d2-a54c-98e47a1504c9',
 	},
 ]
 
@@ -19,7 +19,7 @@ export default function TopLogo() {
 		dots: false,
 		infinite: true,
 		fade: true,
-		speed: 500,
+		speed: 5000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
