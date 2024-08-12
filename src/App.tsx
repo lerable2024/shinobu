@@ -22,6 +22,10 @@ const buttonPattern: { title: string; link: string }[] = [
 		link: 'https://book.squareup.com/appointments/25amlgahuztd30/location/LRMTT04YVDV2P/services?buttonTextColor=000000&color=76a753&referrer=so&team_member_id=TMwfXpqbOBUpH_8d',
 	},
 	{ title: 'お問い合わせ', link: 'https://lin.ee/C29i43R' },
+	{
+		title: 'ギフトカード',
+		link: 'https://app.squareup.com/gift/ML421KQ15HXX8/order',
+	},
 ]
 
 function App() {
