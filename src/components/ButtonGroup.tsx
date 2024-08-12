@@ -28,7 +28,7 @@ export default function ButtonGroup({ pattern }: MyTopicsProps) {
 				<Box sx={{ textAlign: 'center', p: 2 }}>
 					<Grid container spacing={2}>
 						{pattern.map((contents) => (
-							<Grid xs={6} key={contents.title}>
+							<Grid xs={4} key={contents.title}>
 								<Link href={contents.link}>
 									<Button variant='contained' color='primary' fullWidth>
 										<Typography
